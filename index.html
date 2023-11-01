@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Redemption</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        .container {
+            margin: 20px auto;
+            max-width: 400px;
+            padding: 20px;
+            background-color: #f2f2f2;
+            border-radius: 5px;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #result {
+            margin: 20px 0;
+            font-weight: bold;
+        }
+        #message {
+            display: none;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Code Redemption</h1>
+        <p>Enter your name:</p>
+        <input type="text" id="nameInput" placeholder="Enter your name">
+        <p>Enter your code below:</p>
+        <input type="text" id="codeInput" placeholder="Enter your code">
+        <button onclick="redeemCode()">Redeem</button>
+        <p id="result"></p>
+        <div id="message">
+            <p id="messageText"></p>
+        </div>
+        <div id="loading">
+            <img src="spinner2.gif" alt="Loading..." width="50">
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
