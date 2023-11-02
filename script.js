@@ -1,8 +1,15 @@
-const validNames = ["TimothyB", "LucasS", "JonothanS", "MaxN", "HarrisT"]; // Add valid names to the list
+const validNames = ["TimothyB", "LucasS", "JonothanS", "MaxN", "HarrisT", "JamesC"]; // Add valid names to the list
 const codeMessages = {
     "TM12DWFE": "Recieved 4 Iron Ingots Use Code: I20192082",
+    "TM1AFREF": "Recieved 4 Iron Ingots Use Code: IT4533434",
+    "TMJCFDFD": "Recieved 4 Iron Ingots Use Code: IFDFSFSF4",
+    "TM12TGBD": "Recieved 4 Iron Ingots Use Code: IT4T4TDGR",
+
     "TM182WJ": "Recieved 13 Logs Use Code: WL23DG324",
-    "CODE3": "Message for Code 3",
+    "TMRGTRG": "Recieved 13 Logs Use Code: WLGREE355",
+    "TM4545G": "Recieved 13 Logs Use Code: WLFDRFR33",
+    "TMRFERD": "Recieved 13 Logs Use Code: WLA34DTH4",
+
     };
 
     function showLoading() {
