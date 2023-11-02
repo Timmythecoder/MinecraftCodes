@@ -1,4 +1,4 @@
-const validNames = ["TimothyB", "LucasS", "JonothanS", "MaxN", ""]; // Add valid names to the list
+const validNames = ["TimothyB", "LucasS", "JonothanS", "MaxN", "HarrisT"]; // Add valid names to the list
 const codeMessages = {
     "TM12DWFE": "Recieved 4 Iron Ingots Use Code: I20192082",
     "TM182WJ": "Recieved 13 Logs Use Code: WL23DG324",
